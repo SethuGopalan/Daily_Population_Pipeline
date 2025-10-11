@@ -1,0 +1,18 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+.env
+.env.*
+
+# dbt / build
+dbt_packages/
+target/
+
+# Data
+*.duckdb
+*.parquet
+
+# OS
+.DS_Store
+Thumbs.db
